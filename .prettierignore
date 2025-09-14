@@ -1,0 +1,7 @@
+# ignore dependencies and build output
+node_modules
+dist
+build
+
+# optional: ignore large assets
+assets/**/*

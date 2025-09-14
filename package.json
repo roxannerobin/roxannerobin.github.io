@@ -1,0 +1,8 @@
+{
+  "name": "roxannerobin-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.{md,html,css,js,json}\""
+  }
+}
