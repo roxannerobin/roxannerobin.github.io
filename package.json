@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "format": "prettier --write \"**/*.{md,html,css,js,json}\""
+    "format": "prettier --write \"**/*.{md,css,js,json}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }

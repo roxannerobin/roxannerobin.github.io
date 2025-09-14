@@ -1,4 +1,21 @@
 ---
 ---
 
-@import "{{ Tactile.theme }}";
+/* Custom site styles
+	 The theme's SCSS was being imported with a Liquid tag that resolves
+	 to an empty string during the Pages build, causing the Sass error:
+	 "File to import not found or unreadable:". Removing that import
+	 prevents the build failure. Add any custom rules below.
+*/
+
+/* Example: set a comfortable max-width for content */
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+	line-height: 1.45;
+	color: #222;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}

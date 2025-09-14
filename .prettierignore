@@ -1,4 +1,15 @@
-# ignore dependencies and build output
+# Ignore Jekyll templates and generated site
+_site
+_layouts
+_includes
+_sass
+
+# Node and build
+node_modules
+package-lock.json
+
+# Large assets
+assets/**/*# ignore dependencies and build output
 node_modules
 dist
 build
