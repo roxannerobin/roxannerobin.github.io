@@ -1,2 +1,13 @@
 # macOS
 .DS_Store
+
+# Node and build
+node_modules/
+package-lock.json
+
+# Prettier ignore and Jekyll build output
+.prettierignore
+_site/
+
+# Assets
+assets/**/*
