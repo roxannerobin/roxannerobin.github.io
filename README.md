@@ -1,3 +1,3 @@
 # Roxanne Sawhill
 
-![Alt text](/assets/images/atNight.jpg)
+![Alt text](/assets/images/atNight.png)
