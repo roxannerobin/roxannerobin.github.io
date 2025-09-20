@@ -1,3 +1,58 @@
+body {
+	font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+	background: #000;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.site-header {
+	background: #000;
+	border-bottom: 1px solid #333;
+	padding: 0.5rem 0 0.5rem 0;
+	text-align: center;
+}
+.site-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin: 0 0 0.5rem 0;
+	letter-spacing: 1px;
+}
+.site-nav {
+	margin: 0.2rem 0 0 0;
+}
+.nav-link {
+	display: inline-block;
+	margin: 0 1rem;
+	color: #1a73e8;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.1rem;
+	transition: color 0.2s;
+}
+.nav-link:hover {
+	color: #0d47a1;
+	text-decoration: underline;
+}
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+#main_content {
+	margin: 2rem auto;
+	max-width: 700px;
+	background: #111;
+	padding: 2rem 1.5rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+footer {
+	text-align: center;
+	color: #888;
+	font-size: 0.95rem;
+	margin: 2rem 0 1rem 0;
+}
 ---
 ---
 
